@@ -1,3 +1,3 @@
-# Website Analysis
+# Edit data file
 
-Extracts the structure and content of a website and its pages
+Allows you to edit a data file such as CSV file
