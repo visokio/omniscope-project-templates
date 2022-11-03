@@ -1,0 +1,28 @@
+{
+    "templates": [
+        {
+            "@visokiotype": "TemplateApi.ProjectTemplate",
+            "name": "Website Analysis",
+            "version": 1,
+            "description": "Extracts the structure and content of a website and its pages.",
+            "actions": [
+                {
+                    "@visokiotype": "TemplateApi.FileAction",
+                    "action": "unlockProject",
+                    "displayName": "Unlock the project"
+                },
+                {
+                    "@visokiotype": "TemplateApi.BlockAction",
+                    "action": "upload",
+                    "blockName": "myFile",
+                    "optionName": "filesource",
+                    "displayName": "Upload file for the collection source"
+                }
+            ],
+            "pinBlocks": [
+                "myFile"
+            ],
+            "path": "Website Analysis"
+        }
+    ]
+}

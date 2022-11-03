@@ -1,0 +1,22 @@
+{
+    "@visokiotype": "TemplateApi.ProjectTemplate",
+    "name": "Edit data",
+    "version": 1,
+    "description": "Edit a data file.",
+    "actions": [
+        {
+            "@visokiotype": "TemplateApi.FileAction",
+            "action": "unlockProject",
+            "displayName": "Unlock the project"
+        },
+        {
+            "@visokiotype": "TemplateApi.BlockAction",
+            "action"	: "upload",
+            "blockName"	: "Load data from file",
+            "optionName": "File location",
+            "displayName": "Upload file you want to edit" 
+        }
+    ],
+    "pinBlocks": ["myFile"]
+
+}
