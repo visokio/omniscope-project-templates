@@ -39,77 +39,60 @@ def compare(a, b):
     else: return 0
 
 
-def create_block_overview(f, blocks):
+def create_template_overview(f, templates):
     f.write("## Template Overview\n")
+    for aTemplate in templates:
 
-    for category in sections:
+        f.write(f'<div id="{aTemplate["id"]}"/>\n\n')
+        f.write(f'### {aTemplate["name"]}\n\n')
 
-        subcategories = list(sections[category].keys())
-        subcategories.sort(key=cmp_to_key(compare))
+        has_thumbnail = "thumbnail" in aTemplate
 
-        for subcategory in subcategories:
+        if has_thumbnail:
+            f.write(f'<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/{aTemplate["thumbnail"]}" width="125" height="125"/>\n\n')
 
-            for block in sections[category][subcategory]:
-
-                f.write(f'<div id="{block["id"]}"/>\n\n')
-                f.write(f'### {block["name"]}\n\n')
-
-                has_thumbnail = "thumbnail" in block
-
-                if has_thumbnail:
-                    f.write(f'<img align="right" src="https://github.com/visokio/omniscope-custom-blocks/blob/master/{block["thumbnail"]}" width="125" height="125"/>\n\n')
-
-                f.write(f'{block["description"]}\n\n')
-                f.write(f'[Link to Github page]({block["relative_path"]})\n\n')
+        f.write(f'{aTemplate["description"]}\n\n')
+        f.write(f'[Link to Github page]({aTemplate["relative_path"]})\n\n')
 
 
+def process_directory(root_path: str, path_parts, templates):
+    with open(root_path+"/index.json", 'r') as manifest_file:
+        indexJson = json.load(manifest_file)
 
-
-
-
-
-def process_directory(root_path: str, path_parts, blocks):
-    with open(root_path+"/manifest.json", 'r') as manifest_file:
-        manifest = json.load(manifest_file)
-
-        if not "optionsVersion" in manifest or not manifest["optionsVersion"] in supported_options_versions:
+        if not "version" in indexJson or not indexJson["version"] in supported_options_versions:
             return
 
         relative_path = os.sep.join(path_parts)
 
         id = "".join(list(map(lambda s: s.replace(" ", ""), path_parts)))
 
-        block = {}
-        block["id"] = id
-        block["path"] = root_path
-        block["relative_path"] = urllib.parse.quote(relative_path)
-        block["name"] = manifest["name"]
-        block["language"] = manifest["language"]
-        block["description"] = manifest["description"]
-        block["category"] = manifest["category"]
-        if "subcategory" in manifest and not manifest["subcategory"] is None:
-            block["subcategory"] = manifest["subcategory"]
+        aTemplate = {}
+        aTemplate["id"] = id
+        aTemplate["path"] = root_path
+        aTemplate["relative_path"] = urllib.parse.quote(relative_path)
+        aTemplate["name"] = indexJson["name"]
+        aTemplate["description"] = indexJson["description"]
+        
 
         if path.isfile(root_path+"/thumbnail.png"):
-            block["thumbnail"] = relative_path+"/thumbnail.png"
+            aTemplate["thumbnail"] = relative_path+"/thumbnail.png"
+
+        templates.append(aTemplate)
 
 
-        blocks.append(block)
 
 
-
-
-blocks = []
+templates = []
 
 for root, dirs, files in os.walk("."):
     root_path = root.split(os.sep)
     path_parts = root_path[1:]
     for file in files:
-        if file == "manifest.json":
-            process_directory(root, path_parts, blocks)
+        if file == "index.json":
+            process_directory(root, path_parts, templates)
 
 
 
 with open(readme_file_name, 'w') as readme_file:
     create_header(readme_file)
-    #create_block_overview(readme_file, blocks)
+    create_template_overview(readme_file, templates)
