@@ -2,9 +2,9 @@
     "templates": [
         {
             "@visokiotype": "TemplateApi.ProjectTemplate",
-            "name": "Website Analysis",
+            "name": "Edit data",
             "version": 1,
-            "description": "Extracts the structure and content of a website and its pages.",
+            "description": "Edit a data file.",
             "actions": [
                 {
                     "@visokiotype": "TemplateApi.FileAction",
@@ -14,15 +14,15 @@
                 {
                     "@visokiotype": "TemplateApi.BlockAction",
                     "action": "upload",
-                    "blockName": "myFile",
-                    "optionName": "filesource",
-                    "displayName": "Upload file for the collection source"
+                    "blockName": "Load data from file",
+                    "optionName": "File location",
+                    "displayName": "Upload file you want to edit"
                 }
             ],
             "pinBlocks": [
                 "myFile"
             ],
-            "path": "Website Analysis"
+            "path": "Edit data file"
         }
     ]
 }
