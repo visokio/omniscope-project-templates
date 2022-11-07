@@ -80,8 +80,6 @@ def process_directory(root_path: str, path_parts, templates):
         templates.append(aTemplate)
 
 
-
-
 templates = []
 
 for root, dirs, files in os.walk("."):
