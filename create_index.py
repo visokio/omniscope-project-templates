@@ -63,4 +63,4 @@ for root, dirs, files in os.walk("."):
 
 
 with open(index_file_name, 'w') as index_file:
-    json.dump({  "@visokiotype": "ProjectTemplateSchema.AllProjectTemplates", "templates": templates}, index_file, indent=4)
+    json.dump({ "@visokiotype": "ProjectTemplateSchema.AllProjectTemplates", "templates": templates}, index_file, indent=4)
