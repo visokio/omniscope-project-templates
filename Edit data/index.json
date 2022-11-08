@@ -1,6 +1,7 @@
 {
   "name": "Edit data",
   "version": 1,
+  "category": "General",
   "description": "Editing data",
   "actions": [
     {
