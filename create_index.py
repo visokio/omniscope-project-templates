@@ -38,7 +38,7 @@ def process_directory(path: str, templates):
 
         for key in keys_required:
             if not key in manifest or manifest[key] is None:
-                raise Exception(f"Key {key} is required but not present in manifest {path}/index.json")
+                raise Exception(f"Key {key} is required but not present in {path}/index.json")
 
         folder = os.sep.join(path.split(os.sep)[1:])
         
