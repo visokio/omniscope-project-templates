@@ -47,9 +47,6 @@ def process_directory(path: str, templates):
         for manifestKey in manifest: 
             aTemplate[manifestKey] = manifest[manifestKey]
 
-        # This is used by the server side to ensure we know the project the user is trying to create a 
-        # template from.
-        aTemplate["path"] = folder
         templates.append(aTemplate)
 
 
@@ -63,4 +60,4 @@ for root, dirs, files in os.walk("."):
 
 
 with open(index_file_name, 'w') as index_file:
-    json.dump({ "@visokiotype": "ProjectTemplateSchema.AllProjectTemplates", "templates": templates}, index_file, indent=4)
+    json.dump({ "templates": templates}, index_file, indent=4)

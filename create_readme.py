@@ -68,7 +68,6 @@ def process_directory(root_path: str, path_parts, templates):
 
         aTemplate = {}
         aTemplate["id"] = id
-        aTemplate["path"] = root_path
         aTemplate["relative_path"] = urllib.parse.quote(relative_path)
         aTemplate["name"] = indexJson["name"]
         aTemplate["description"] = indexJson["description"]

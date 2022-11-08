@@ -1,27 +1,22 @@
 {
-    "@visokiotype": "ProjectTemplateSchema.AllProjectTemplates",
     "templates": [
         {
-            "@visokiotype": "ProjectTemplateSchema.ProjectTemplateMeta",
             "name": "Edit data",
             "version": 1,
             "description": "Editing data",
             "actions": [
                 {
-                    "@visokiotype": "ProjectTemplateSchema.BlockTemplateAction",
                     "paramName": "myProjectParam",
                     "displayName": "Data file",
                     "description": "Upload the data file you want to edit",
                     "action": {
-                        "@visokiotype": "ProjectTemplateSchema.UploadDataTemplateAction",
                         "validExtensions": []
                     }
                 }
             ],
             "pinBlocks": [
                 "Report"
-            ],
-            "path": "Edit data file"
+            ]
         }
     ]
 }

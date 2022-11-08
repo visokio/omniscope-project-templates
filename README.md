@@ -3,13 +3,13 @@
 Public repository for project templates for Omniscope Evo.
 
 ## Template Overview
-<div id="Editdatafile"/>
+<div id="Editdata"/>
 
 ### Edit data
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Edit data file/thumbnail.png" width="125" height="125"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Edit data/thumbnail.png" width="125" height="125"/>
 
-Edit a data file.
+Editing data
 
-[Link to Github page](Edit%20data%20file)
+[Link to Github page](Edit%20data)
 
