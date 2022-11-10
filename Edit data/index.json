@@ -1,9 +1,9 @@
 {
   "name": "Edit data",
   "version": 1,
-  "category": "General",
   "description": "Editing data",
-  "actions": [
+  "category": "General",
+  "workflowActions": [
     {
       "paramName": "myProjectParam",
       "displayName": "Data file",
