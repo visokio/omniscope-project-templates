@@ -11,7 +11,7 @@ index_file_name = "index.json"
 supported_versions = [1]
 
 # the script will raise an error if these keys are not found in the individual template index.json.
-keys_required = ["name", "version", "actions", "pinBlocks"]
+keys_required = ["name", "version", "workflowActions", "pinBlocks"]
 
 import os
 import json

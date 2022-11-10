@@ -8,7 +8,7 @@
       "paramName": "myProjectParam",
       "displayName": "Data file",
       "description": "Upload the data file you want to edit",
-      "action": {
+      "config": {
         "validExtensions": []
       }
     }
