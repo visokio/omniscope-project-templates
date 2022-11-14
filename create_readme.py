@@ -73,6 +73,9 @@ def process_directory(root_path: str, path_parts, templates):
         aTemplate["description"] = indexJson["description"]
         
 
+        if (relative_path != aTemplate["name"]):
+            raise Exception(f"Name of the template MUST match name of the folder." + relative_path + " != " + aTemplate["name"]) 
+
         if path.isfile(root_path+"/thumbnail.png"):
             aTemplate["thumbnail"] = relative_path+"/thumbnail.png"
 

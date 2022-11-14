@@ -36,6 +36,9 @@ def process_directory(path: str, templates):
         checkFileExists(path + "/template.ioz");
         checkFileExists(path + "/README.md");
 
+        if (os.path.basename(path) != manifest["name"]):
+            raise Exception("Folder name and index.json name must match" + os.path.basename(path) + " != " + manifest["name"] + " for folder: " + path);
+
         for key in keys_required:
             if not key in manifest or manifest[key] is None:
                 raise Exception(f"Key {key} is required but not present in {path}/index.json")
