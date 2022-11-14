@@ -5,7 +5,7 @@
   "category": "General",
   "workflowActions": [
     {
-      "paramName": "myProjectParam",
+      "paramName": "editFile",
       "displayName": "Data file",
       "description": "Upload the data file you want to edit",
       "config": {
@@ -14,6 +14,6 @@
     }
   ],
   "pinBlocks": [
-    "Report"
+    "Edit data - Explore"
   ]
 }
