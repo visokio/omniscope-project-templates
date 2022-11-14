@@ -9,7 +9,7 @@
       "displayName": "Data file",
       "description": "Upload the data file you want to edit",
       "config": {
-        "validExtensions": ["iok", "iom", "iod", "isd", "json", "csv", "tsv", "txt", "html", "htm", "xls", "xlsx", "xlsm", "xlsb", "xml", "rss", :"avro", "parquet", "log", "pst"]
+        "validExtensions": ["iok", "iom", "iod", "isd", "json", "csv", "tsv", "txt", "html", "htm", "xls", "xlsx", "xlsm", "xlsb", "xml", "rss", "avro", "parquet", "log", "pst"]
       }
     }
   ],
