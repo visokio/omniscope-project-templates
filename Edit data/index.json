@@ -15,5 +15,9 @@
   ],
   "pinBlocks": [
     "Edit data - Explore"
+  ],
+  ,
+  "blocksToExecute": [
+    "Edit data - Explore"
   ]
 }
