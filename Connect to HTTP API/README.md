@@ -1,3 +1,3 @@
-# Edit data file
+# Connect to HTTP API
 
-Allows you to edit a data file such as CSV file
+Connect to a HTTP API endpoint to connect to JSON or XML etc.  
