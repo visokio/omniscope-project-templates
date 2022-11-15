@@ -11,6 +11,7 @@
                     "displayName": "API URL",
                     "description": "",
                     "config": {
+                        "@visokiotype": "ProjectTemplateSchema.TextInputTemplateAction",
                         "validCharacters": []
                     }
                 }
