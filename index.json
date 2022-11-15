@@ -1,6 +1,25 @@
 {
     "templates": [
         {
+            "name": "Connect to HTTP API",
+            "version": 1,
+            "description": "Connect to a HTTP API using URL",
+            "category": "General",
+            "workflowActions": [
+                {
+                    "paramName": "url",
+                    "displayName": "API URL",
+                    "description": "",
+                    "config": {
+                        "validCharacters": []
+                    }
+                }
+            ],
+            "pinBlocks": [
+                "HTTP API"
+            ]
+        },
+        {
             "name": "Edit data",
             "version": 1,
             "description": "Editing data",
