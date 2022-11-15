@@ -7,7 +7,7 @@ Public repository for project templates for Omniscope Evo.
 
 ### Connect to HTTP API
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Connect to HTTP API/thumbnail.png" width="125" height="125"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Connect to HTTP API/thumbnail.png" width="150px" height="auto"/>
 
 Connect to a HTTP API using URL
 
@@ -17,7 +17,7 @@ Connect to a HTTP API using URL
 
 ### Edit data
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Edit data/thumbnail.png" width="125" height="125"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Edit data/thumbnail.png" width="150px" height="auto"/>
 
 Editing data
 
