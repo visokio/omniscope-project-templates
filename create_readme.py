@@ -49,7 +49,7 @@ def create_template_overview(f, templates):
         has_thumbnail = "thumbnail" in aTemplate
 
         if has_thumbnail:
-            f.write(f'<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/{aTemplate["thumbnail"]}" width="125" height="125"/>\n\n')
+            f.write(f'<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/{aTemplate["thumbnail"]}" width="150px" height="auto"/>\n\n')
 
         f.write(f'{aTemplate["description"]}\n\n')
         f.write(f'[Link to Github page]({aTemplate["relative_path"]})\n\n')
