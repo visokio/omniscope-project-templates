@@ -11,11 +11,15 @@
                     "displayName": "API URL",
                     "description": "",
                     "config": {
+                        "@visokiotype": "ProjectTemplateSchema.TextInputTemplateAction",
                         "validCharacters": ""
                     }
                 }
             ],
             "pinBlocks": [
+                "HTTP API"
+            ],
+            "blocksToExecute": [
                 "HTTP API"
             ]
         },
@@ -30,6 +34,7 @@
                     "displayName": "Data file",
                     "description": "Upload the data file you want to edit",
                     "config": {
+                        "@visokiotype": "ProjectTemplateSchema.UploadDataTemplateAction",
                         "validExtensions": [
                             "iok",
                             "iom",
