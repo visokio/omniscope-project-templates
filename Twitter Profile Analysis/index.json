@@ -1,0 +1,9 @@
+{
+  "name": "Twitter Profile Analysis",
+  "version": 1,
+  "description": "View a dashboard of any twitter user",
+  "category": "General",
+  "workflowActions": [],
+  "pinBlocks": [],
+  "blocksToExecute": []
+}

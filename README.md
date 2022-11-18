@@ -3,23 +3,13 @@
 Public repository for project templates for Omniscope Evo.
 
 ## Template Overview
-<div id="ConnecttoHTTPAPI"/>
+<div id="TwitterProfileAnalysis"/>
 
-### Connect to HTTP API
+### Twitter Profile Analysis
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Connect to HTTP API/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Twitter Profile Analysis/thumbnail.png" width="150px" height="auto"/>
 
-Connect to a HTTP API using URL
+View a dashboard of any twitter user
 
-[Link to Github page](Connect%20to%20HTTP%20API)
-
-<div id="Editdata"/>
-
-### Edit data
-
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Edit data/thumbnail.png" width="150px" height="auto"/>
-
-Editing data
-
-[Link to Github page](Edit%20data)
+[Link to Github page](Twitter%20Profile%20Analysis)
 

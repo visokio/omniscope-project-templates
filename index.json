@@ -1,71 +1,13 @@
 {
     "templates": [
         {
-            "name": "Connect to HTTP API",
+            "name": "Twitter Profile Analysis",
             "version": 1,
-            "description": "Connect to a HTTP API using URL",
+            "description": "View a dashboard of any twitter user",
             "category": "General",
-            "workflowActions": [
-                {
-                    "paramName": "url",
-                    "displayName": "API URL",
-                    "description": "",
-                    "config": {
-                        "@visokiotype": "ProjectTemplateSchema.TextInputTemplateAction",
-                        "validCharacters": ""
-                    }
-                }
-            ],
-            "pinBlocks": [
-                "HTTP API"
-            ],
-            "blocksToExecute": [
-                "HTTP API"
-            ]
-        },
-        {
-            "name": "Edit data",
-            "version": 1,
-            "description": "Editing data",
-            "category": "General",
-            "workflowActions": [
-                {
-                    "paramName": "editFile",
-                    "displayName": "Data file",
-                    "description": "Upload the data file you want to edit",
-                    "config": {
-                        "@visokiotype": "ProjectTemplateSchema.UploadDataTemplateAction",
-                        "validExtensions": [
-                            "iok",
-                            "iom",
-                            "iod",
-                            "isd",
-                            "json",
-                            "csv",
-                            "tsv",
-                            "txt",
-                            "html",
-                            "htm",
-                            "xls",
-                            "xlsx",
-                            "xlsm",
-                            "xlsb",
-                            "xml",
-                            "rss",
-                            "avro",
-                            "parquet",
-                            "log",
-                            "pst"
-                        ]
-                    }
-                }
-            ],
-            "pinBlocks": [
-                "Edit data - Explore"
-            ],
-            "blocksToExecute": [
-                "Edit data - Explore"
-            ]
+            "workflowActions": [],
+            "pinBlocks": [],
+            "blocksToExecute": []
         }
     ]
 }
