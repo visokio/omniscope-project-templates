@@ -65,15 +65,17 @@ for root, dirs, files in os.walk("."):
 with open(index_file_name, 'w') as index_file:
     templateCategories = {
 
-       "General": {
-            "foregroundColour": "#7a7a7a",
-            "backgroundColour": "#A3CFA7",
-            "description": ""
+        "All": {
+            "foregroundColour": "white",
+            "backgroundColour": "#7a9cdf"
+        },
+        "General": {
+            "foregroundColour": "white",
+            "backgroundColour": "#93c44c"
         },
         "Social": {
-            "foregroundColour": "#7a7a7a",
-            "backgroundColour": "#F7DCEC",
-            "description": ""
+            "foregroundColour": "white",
+            "backgroundColour": "#cf8059"
         }
 
         
