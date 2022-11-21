@@ -63,4 +63,21 @@ for root, dirs, files in os.walk("."):
 
 
 with open(index_file_name, 'w') as index_file:
-    json.dump({ "templates": templates}, index_file, indent=4)
+    templateCategories = {
+
+       "General": {
+            "foregroundColour": "#7a7a7a",
+            "backgroundColour": "#A3CFA7",
+            "description": ""
+        },
+        "Social": {
+            "foregroundColour": "#7a7a7a",
+            "backgroundColour": "#F7DCEC",
+            "description": ""
+        }
+
+        
+    }
+
+
+    json.dump({ "categories": templateCategories, "templates": templates}, index_file, indent=4)
