@@ -5,12 +5,12 @@
             "backgroundColour": "#7a9cdf"
         },
         "General": {
-            "foregroundColour": "#603F83",
-            "backgroundColour": "#C7D3D4"
+            "foregroundColour": "white",
+            "backgroundColour": "#93c44c"
         },
         "Social": {
-            "foregroundColour": "#990011",
-            "backgroundColour": "#FCF6F5"
+            "foregroundColour": "white",
+            "backgroundColour": "#cf8059"
         }
     },
     "templates": [
