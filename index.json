@@ -1,4 +1,16 @@
 {
+    "categories": {
+        "General": {
+            "foregroundColour": "#7a7a7a",
+            "backgroundColour": "#A3CFA7",
+            "description": ""
+        },
+        "Social": {
+            "foregroundColour": "#7a7a7a",
+            "backgroundColour": "#F7DCEC",
+            "description": ""
+        }
+    },
     "templates": [
         {
             "name": "Twitter Profile Analysis",
