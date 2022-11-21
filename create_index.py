@@ -71,7 +71,7 @@ with open(index_file_name, 'w') as index_file:
         },
         "General": {
             "foregroundColour": "white",
-            "backgroundColour": "#93c44c"
+            "backgroundColour": "#6ac1d4"
         },
         "Social": {
             "foregroundColour": "white",
