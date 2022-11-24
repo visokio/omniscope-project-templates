@@ -1,0 +1,9 @@
+{
+  "name": "Explore Reddit",
+  "version": 1,
+  "description": "Explore subreddit",
+  "category": "Social",
+  "workflowActions": [],
+  "pinBlocks": [],
+  "blocksToExecute": []
+}

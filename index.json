@@ -15,6 +15,15 @@
     },
     "templates": [
         {
+            "name": "Explore Reddit",
+            "version": 1,
+            "description": "Explore subreddit",
+            "category": "Social",
+            "workflowActions": [],
+            "pinBlocks": [],
+            "blocksToExecute": []
+        },
+        {
             "name": "Twitter Profile Analysis",
             "version": 1,
             "description": "This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.",
