@@ -15,7 +15,7 @@
     },
     "templates": [
         {
-            "name": "Explore Reddit",
+            "name": "Reddit explorer",
             "version": 1,
             "description": "Explore subreddit",
             "category": "Social",

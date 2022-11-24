@@ -3,15 +3,15 @@
 Public repository for project templates for Omniscope Evo.
 
 ## Template Overview
-<div id="ExploreReddit"/>
+<div id="Redditexplorer"/>
 
-### Explore Reddit
+### Reddit explorer
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Explore Reddit/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Reddit explorer/thumbnail.png" width="150px" height="auto"/>
 
 Explore subreddit
 
-[Link to Github page](Explore%20Reddit)
+[Link to Github page](Reddit%20explorer)
 
 <div id="TwitterProfileAnalysis"/>
 
