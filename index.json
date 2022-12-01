@@ -2,15 +2,15 @@
     "categories": {
         "All": {
             "foregroundColour": "white",
-            "backgroundColour": "#7a9cdf"
+            "backgroundColour": "#083045"
         },
         "General": {
             "foregroundColour": "white",
-            "backgroundColour": "#6ac1d4"
+            "backgroundColour": "#107895"
         },
         "Social": {
             "foregroundColour": "white",
-            "backgroundColour": "#cf8059"
+            "backgroundColour": "#9a2515"
         }
     },
     "templates": [
