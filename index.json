@@ -6,11 +6,11 @@
         },
         "General": {
             "foregroundColour": "white",
-            "backgroundColour": "#107895"
+            "backgroundColour": "#5c9cae"
         },
         "Social": {
             "foregroundColour": "white",
-            "backgroundColour": "#9a2515"
+            "backgroundColour": "#b584af"
         }
     },
     "templates": [
