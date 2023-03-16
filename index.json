@@ -15,6 +15,17 @@
     },
     "templates": [
         {
+            "name": "Stock portfolio",
+            "version": 1,
+            "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
+            "category": "General",
+            "workflowActions": [],
+            "pinBlocks": [
+                "Demo Portfolio"
+            ],
+            "blocksToExecute": []
+        },
+        {
             "name": "Reddit explorer",
             "version": 1,
             "description": "Explore subreddit",
@@ -30,17 +41,6 @@
             "category": "Social",
             "workflowActions": [],
             "pinBlocks": [],
-            "blocksToExecute": []
-        },
-        {
-            "name": "Stock portfolio",
-            "version": 1,
-            "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
-            "category": "General",
-            "workflowActions": [],
-            "pinBlocks": [
-                "Demo Portfolio"
-            ],
             "blocksToExecute": []
         }
     ]
