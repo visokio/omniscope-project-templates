@@ -23,3 +23,13 @@ This project allows you to view a dashboard of any Twitter user timeline. Start 
 
 [Link to Github page](Twitter%20Profile%20Analysis)
 
+<div id="Stockportfolio"/>
+
+### Stock portfolio
+
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stock portfolio/thumbnail.png" width="150px" height="auto"/>
+
+Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard
+
+[Link to Github page](Stock%20portfolio)
+
