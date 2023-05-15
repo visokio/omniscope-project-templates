@@ -3,28 +3,7 @@
   "version": 1,
   "description": "Visualise data about accounts, lead, opportunities and sales.",
   "category": "General",
-  "workflowActions": [ {
-      "paramName": "Username",
-      "displayName": "Username",
-      "description": "Your SalesForce username",
-      "config": {
-        "isTextAction": true
-      }
-    }, {
-      "paramName": "Password",
-      "displayName": "Password",
-      "description": "",
-      "config": {
-        "isTextAction": true
-      }
-    }, {
-      "paramName": "Security token",
-      "displayName": "Security token",
-      "description": "To retrieve the security token, log in to Salesforce using the Salesforce account. In the User Menu, select Setup, in the menu on the left under Personal Setup, expand My Personal Information, then click **Reset My Security Token**. Follow onscreen instructions. A new email message will be sent.",
-      "config": {
-        "isTextAction": true
-      }
-    }],
+  "workflowActions": [],
   "pinBlocks": ["Demo Report"],
   "blocksToExecute": ["Demo Report"]
 }
