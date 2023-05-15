@@ -15,17 +15,6 @@
     },
     "templates": [
         {
-            "name": "Stock portfolio",
-            "version": 1,
-            "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
-            "category": "General",
-            "workflowActions": [],
-            "pinBlocks": [
-                "Demo Portfolio"
-            ],
-            "blocksToExecute": []
-        },
-        {
             "name": "Reddit explorer",
             "version": 1,
             "description": "Explore subreddit",
@@ -35,12 +24,34 @@
             "blocksToExecute": []
         },
         {
+            "name": "SalesForce dashboard",
+            "version": 1,
+            "description": "Visualise data about accounts, lead, opportunities and sales.",
+            "category": "General",
+            "workflowActions": [],
+            "pinBlocks": [
+                "Demo Report"
+            ],
+            "blocksToExecute": []
+        },
+        {
             "name": "Twitter Profile Analysis",
             "version": 1,
             "description": "This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.",
             "category": "Social",
             "workflowActions": [],
             "pinBlocks": [],
+            "blocksToExecute": []
+        },
+        {
+            "name": "Stock portfolio",
+            "version": 1,
+            "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
+            "category": "General",
+            "workflowActions": [],
+            "pinBlocks": [
+                "Demo Portfolio"
+            ],
             "blocksToExecute": []
         }
     ]
