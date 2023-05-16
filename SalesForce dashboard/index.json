@@ -3,7 +3,7 @@
   "version": 1,
   "description": "Visualise data about accounts, lead, opportunities and sales.",
   "category": "General",
- "workflowActions": [],
+  "workflowActions": [],
   "pinBlocks": ["Demo Report"],
   "blocksToExecute": ["Demo Report"]
 }
