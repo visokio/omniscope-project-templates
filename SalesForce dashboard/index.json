@@ -28,7 +28,7 @@
         "isPassword": true
 
       }
-    }]
+    }],
   "pinBlocks": ["Demo Report"],
   "blocksToExecute": ["Demo Report"]
 }
