@@ -7,7 +7,7 @@
     {
       "paramName": "Tickers",
       "displayName": "Stocks",
-      "description": "Enter stock tickers comma seperated i.e. appl,meta,hsbc",
+      "description": "Enter stock tickers comma separated i.e. appl,meta,hsbc",
       "config": {
         "__t": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
         "isTextAction": true,
@@ -17,7 +17,7 @@
     {
       "paramName": "Start Date",
       "displayName": "Start Date",
-      "description": "Enter the start date",
+      "description": "Enter the start date in format yyyy-MM-dd i.e. 2023-02-05",
       "config": {
          "__t": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
         "isTextAction": true,
