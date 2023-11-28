@@ -9,7 +9,7 @@
       "displayName": "Stocks",
       "description": "Enter stock tickers comma separated i.e. appl,meta,hsbc",
       "config": {
-        "__t": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
+        "@visokiotype": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
         "isTextAction": true,
         "isPassword": false
       }
@@ -19,7 +19,7 @@
       "displayName": "Start Date",
       "description": "Enter the start date in format yyyy-MM-dd i.e. 2023-02-05",
       "config": {
-         "__t": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
+         "@visokiotype": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
         "isTextAction": true,
         "isPassword": false
       }
