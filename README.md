@@ -3,15 +3,15 @@
 Public repository for project templates for Omniscope Evo.
 
 ## Template Overview
-<div id="Redditexplorer"/>
+<div id="TwitterProfileAnalysis"/>
 
-### Reddit explorer
+### Twitter Profile Analysis
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Reddit explorer/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Twitter Profile Analysis/thumbnail.png" width="150px" height="auto"/>
 
-Explore subreddit
+This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.
 
-[Link to Github page](Reddit%20explorer)
+[Link to Github page](Twitter%20Profile%20Analysis)
 
 <div id="SalesForcedashboard"/>
 
@@ -23,15 +23,15 @@ Visualise data about accounts, lead, opportunities and sales.
 
 [Link to Github page](SalesForce%20dashboard)
 
-<div id="TwitterProfileAnalysis"/>
+<div id="Redditexplorer"/>
 
-### Twitter Profile Analysis
+### Reddit explorer
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Twitter Profile Analysis/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Reddit explorer/thumbnail.png" width="150px" height="auto"/>
 
-This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.
+Explore subreddit
 
-[Link to Github page](Twitter%20Profile%20Analysis)
+[Link to Github page](Reddit%20explorer)
 
 <div id="Stockportfolio"/>
 
@@ -42,4 +42,14 @@ This project allows you to view a dashboard of any Twitter user timeline. Start 
 Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard
 
 [Link to Github page](Stock%20portfolio)
+
+<div id="Stocks"/>
+
+### Stocks
+
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stocks/thumbnail.png" width="150px" height="auto"/>
+
+Dashboard of your favorite stocks
+
+[Link to Github page](Stocks)
 
