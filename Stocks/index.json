@@ -1,8 +1,6 @@
 {
   "name": "Stocks",
-  "defaultProjectName": "Stocks",
   "description": "Dashboard of your favorite stocks",
-  "category": "Finance",
   "showOnSidebar": false,
   "version": 1,
   "workflowActions": [
@@ -29,6 +27,5 @@
     "Report"
   ],
   "pinBlocks": [],
-  "openExternalReportId": "Report",
-  "showInProjectTemplates": true,
+  "openExternalReportId": "Report"
 }
