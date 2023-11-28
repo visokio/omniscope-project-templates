@@ -9,6 +9,7 @@
       "displayName": "Stocks",
       "description": "Enter stock tickers comma seperated i.e. appl,meta,hsbc",
       "config": {
+        "__t": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
         "isTextAction": true,
         "isPassword": false
       }
@@ -18,6 +19,7 @@
       "displayName": "Start Date",
       "description": "Enter the start date",
       "config": {
+         "__t": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
         "isTextAction": true,
         "isPassword": false
       }
