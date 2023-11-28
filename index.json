@@ -15,9 +15,9 @@
     },
     "templates": [
         {
-            "name": "Reddit explorer",
+            "name": "Twitter Profile Analysis",
             "version": 1,
-            "description": "Explore subreddit",
+            "description": "This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.",
             "category": "Social",
             "workflowActions": [],
             "pinBlocks": [],
@@ -37,9 +37,9 @@
             ]
         },
         {
-            "name": "Twitter Profile Analysis",
+            "name": "Reddit explorer",
             "version": 1,
-            "description": "This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.",
+            "description": "Explore subreddit",
             "category": "Social",
             "workflowActions": [],
             "pinBlocks": [],
@@ -52,9 +52,43 @@
             "category": "General",
             "workflowActions": [],
             "pinBlocks": [
-                "Demo Portfolio"
+                "Demo Portfolio",
+                "Report"
             ],
-            "blocksToExecute": []
+            "blocksToExecute": [
+                "Report"
+            ]
+        },
+        {
+            "name": "Stocks",
+            "description": "Dashboard of your favorite stocks",
+            "showOnSidebar": false,
+            "version": 1,
+            "workflowActions": [
+                {
+                    "paramName": "Tickers",
+                    "displayName": "Stocks",
+                    "description": "Enter stock tickers comma seperated i.e. appl,meta,hsbc",
+                    "config": {
+                        "isTextAction": true,
+                        "isPassword": false
+                    }
+                },
+                {
+                    "paramName": "Start Date",
+                    "displayName": "Start Date",
+                    "description": "Enter the start date",
+                    "config": {
+                        "isTextAction": true,
+                        "isPassword": false
+                    }
+                }
+            ],
+            "blocksToExecute": [
+                "Report"
+            ],
+            "pinBlocks": [],
+            "openExternalReportId": "Report"
         }
     ]
 }
