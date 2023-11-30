@@ -8,10 +8,6 @@
 
 readme_file_name = "README.md"
 
-# a new index.json is created for all individual block manifests that have a supported optionsVersion
-supported_options_versions = [1]
-
-
 import os
 import json
 from os import path
@@ -59,8 +55,6 @@ def process_directory(root_path: str, path_parts, templates):
     with open(root_path+"/index.json", 'r') as manifest_file:
         indexJson = json.load(manifest_file)
 
-        if not "version" in indexJson or not indexJson["version"] in supported_options_versions:
-            return
 
         relative_path = os.sep.join(path_parts)
 
