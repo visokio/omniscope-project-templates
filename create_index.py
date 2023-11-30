@@ -11,7 +11,7 @@ index_file_name = "index.json"
 supported_versions = [1]
 
 # the script will raise an error if these keys are not found in the individual template index.json.
-keys_required = ["name", "version", "workflowActions", "pinBlocks"]
+keys_required = ["name", "version"]
 
 import os
 import json
@@ -63,23 +63,4 @@ for root, dirs, files in os.walk("."):
 
 
 with open(index_file_name, 'w') as index_file:
-    templateCategories = {
-
-        "All": {
-            "foregroundColour": "white",
-            "backgroundColour": "#7a9cdf"
-        },
-        "General": {
-            "foregroundColour": "white",
-            "backgroundColour": "#6ac1d4"
-        },
-        "Social": {
-            "foregroundColour": "white",
-            "backgroundColour": "#cf8059"
-        }
-
-        
-    }
-
-
-    json.dump({ "categories": templateCategories, "templates": templates}, index_file, indent=4)
+    json.dump({"templates": templates}, index_file, indent=4)
