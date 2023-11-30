@@ -70,6 +70,12 @@ def process_directory(root_path: str, path_parts, templates):
             aTemplate["relative_path"] = urllib.parse.quote(relative_path)
             aTemplate["name"] = indexJson["name"]
             aTemplate["description"] = indexJson["description"]
+
+            # Required for legacy reasons for 2023.1 b21633. Removing these will 
+            # cause not even bundled ones to show up which is weird a bug in old rock.
+            aTemplate["workflowActions"]: []
+            aTemplate["pinBlocks"]: []
+            aTemplate["blocksToExecute"]: []
             
 
             if (relative_path != aTemplate["name"]):
