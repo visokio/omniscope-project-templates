@@ -13,6 +13,7 @@
             "backgroundColour": "#cf8059"
         }
     },
+    "templates": [],
     "project_templates": [
         {
             "name": "Twitter Profile Analysis",
