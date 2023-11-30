@@ -8,7 +8,7 @@
         },
         {
             "name": "SalesForce dashboard",
-            "version": 2,
+            "version": 1,
             "description": "Visualise data about accounts, lead, opportunities and sales.",
             "category": "General"
         },
