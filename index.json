@@ -25,8 +25,11 @@
         },
         {
             "name": "SalesForce dashboard",
-            "version": 3,
-            "description": "Visualise data about accounts, lead, opportunities and sales."
+            "version": 2,
+            "description": "Visualise data about accounts, lead, opportunities and sales.",
+            "workflowActions": [],
+            "pinBlocks": [],
+            "blocksToExecute": []
             
         },
        {
