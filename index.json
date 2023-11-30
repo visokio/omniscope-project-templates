@@ -25,12 +25,9 @@
         },
         {
             "name": "SalesForce dashboard",
-            "version": 2,
-            "description": "Visualise data about accounts, lead, opportunities and sales.",
-            "category": "General",
-            "workflowActions": [],
-            "pinBlocks": [],
-            "blocksToExecute": []
+            "version": 3,
+            "description": "Visualise data about accounts, lead, opportunities and sales."
+            
         },
        {
             "name": "Reddit explorer",
