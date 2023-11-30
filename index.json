@@ -16,7 +16,7 @@
     "templates": [
         {
             "name": "Twitter Profile Analysis",
-            "version": 1,
+            "version": 2,
             "description": "This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.",
             "category": "Social",
             "workflowActions": [],
@@ -25,7 +25,7 @@
         },
         {
             "name": "SalesForce dashboard",
-            "version": 1,
+            "version": 2,
             "description": "Visualise data about accounts, lead, opportunities and sales.",
             "category": "General",
             "workflowActions": [],
@@ -34,7 +34,7 @@
         },
        {
             "name": "Reddit explorer",
-            "version": 1,
+            "version": 2,
             "description": "Explore subreddit",
             "category": "Social",
             "workflowActions": [],
@@ -44,7 +44,7 @@
         },
         {
             "name": "Stock portfolio",
-            "version": 1,
+            "version": 2,
             "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
             "category": "General",
             "workflowActions": [],
