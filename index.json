@@ -1,18 +1,5 @@
 {
-    "categories": {
-        "All": {
-            "foregroundColour": "white",
-            "backgroundColour": "#7a9cdf"
-        },
-        "General": {
-            "foregroundColour": "white",
-            "backgroundColour": "#6ac1d4"
-        },
-        "Social": {
-            "foregroundColour": "white",
-            "backgroundColour": "#cf8059"
-        }
-    },
+    "categories": {},
     "templates": [],
     "project_templates": [
         {
