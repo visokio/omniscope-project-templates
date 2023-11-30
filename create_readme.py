@@ -52,28 +52,33 @@ def create_template_overview(f, templates):
 
 
 def process_directory(root_path: str, path_parts, templates):
+
     with open(root_path+"/index.json", 'r') as manifest_file:
         indexJson = json.load(manifest_file)
 
+        if "version" in indexJson:
 
-        relative_path = os.sep.join(path_parts)
+            relative_path = os.sep.join(path_parts)
+            print(indexJson)
 
-        id = "".join(list(map(lambda s: s.replace(" ", ""), path_parts)))
 
-        aTemplate = {}
-        aTemplate["id"] = id
-        aTemplate["relative_path"] = urllib.parse.quote(relative_path)
-        aTemplate["name"] = indexJson["name"]
-        aTemplate["description"] = indexJson["description"]
-        
+            id = "".join(list(map(lambda s: s.replace(" ", ""), path_parts)))
 
-        if (relative_path != aTemplate["name"]):
-            raise Exception(f"Name of the template MUST match name of the folder." + relative_path + " != " + aTemplate["name"]) 
 
-        if path.isfile(root_path+"/thumbnail.png"):
-            aTemplate["thumbnail"] = relative_path+"/thumbnail.png"
+            aTemplate = {}
+            aTemplate["id"] = id
+            aTemplate["relative_path"] = urllib.parse.quote(relative_path)
+            aTemplate["name"] = indexJson["name"]
+            aTemplate["description"] = indexJson["description"]
+            
 
-        templates.append(aTemplate)
+            if (relative_path != aTemplate["name"]):
+                raise Exception(f"Name of the template MUST match name of the folder." + relative_path + " != " + aTemplate["name"]) 
+
+            if path.isfile(root_path+"/thumbnail.png"):
+                aTemplate["thumbnail"] = relative_path+"/thumbnail.png"
+
+            templates.append(aTemplate)
 
 
 templates = []
