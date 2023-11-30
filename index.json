@@ -4,7 +4,10 @@
             "name": "Twitter Profile Analysis",
             "version": 2,
             "description": "This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.",
-            "category": "Social"
+            "category": "Social",
+            "workflowActions": [],
+            "pinBlocks": [],
+            "blocksToExecute": []
         },
         {
             "name": "SalesForce dashboard",
@@ -20,18 +23,25 @@
             "workflowActions": [],
             "pinBlocks": [],
             "blocksToExecute": []
+           
         },
         {
             "name": "Stock portfolio",
             "version": 2,
             "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
-            "category": "General"
+            "category": "General",
+            "workflowActions": [],
+            "pinBlocks": [],
+            "blocksToExecute": []
         },
         {
             "name": "Stocks",
             "version": 2,
             "description": "Dashboard of your favorite stocks",
-            "category": "General"
+            "category": "General",
+            "workflowActions": [],
+            "pinBlocks": [],
+            "blocksToExecute": []
         }
     ]
 }
