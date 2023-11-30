@@ -12,11 +12,14 @@
             "description": "Visualise data about accounts, lead, opportunities and sales.",
             "category": "General"
         },
-        {
+       {
             "name": "Reddit explorer",
-            "version": 2,
+            "version": 1,
             "description": "Explore subreddit",
-            "category": "Social"
+            "category": "Social",
+            "workflowActions": [],
+            "pinBlocks": [],
+            "blocksToExecute": []
         },
         {
             "name": "Stock portfolio",
