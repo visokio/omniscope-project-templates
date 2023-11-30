@@ -1,6 +1,4 @@
 {
-    "categories": {},
-    "templates": [],
     "list": [
         {
             "name": "Twitter Profile Analysis",
@@ -11,10 +9,10 @@
         {
             "name": "SalesForce dashboard",
             "version": 2,
-            "description": "Visualise data about accounts, lead, opportunities and sales."
-            
+            "description": "Visualise data about accounts, lead, opportunities and sales.",
+            "category": "General"
         },
-       {
+        {
             "name": "Reddit explorer",
             "version": 2,
             "description": "Explore subreddit",
@@ -25,6 +23,14 @@
             "version": 2,
             "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
             "category": "General"
+        },
+        {
+            "name": "Stocks",
+            "version": 2,
+            "description": "Dashboard of your favorite stocks",
+            "category": "General"
         }
-    ]
+    ],
+    "templates": [],
+    "categories": {}
 }
