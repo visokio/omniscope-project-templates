@@ -1,33 +1,5 @@
 {
   "name": "Stocks",
   "description": "Dashboard of your favorite stocks",
-  "showOnSidebar": false,
-  "version": 1,
-  "workflowActions": [
-    {
-      "paramName": "Tickers",
-      "displayName": "Stocks",
-      "description": "Enter stock tickers comma separated i.e. appl,meta,hsbc",
-      "config": {
-        "@visokiotype": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
-        "isTextAction": true,
-        "isPassword": false
-      }
-    },
-    {
-      "paramName": "Start Date",
-      "displayName": "Start Date",
-      "description": "Enter the start date in format yyyy-MM-dd i.e. 2023-02-05",
-      "config": {
-         "@visokiotype": "ProjectTemplateSchema.AutoDetermineInputTemplateParamAction",
-        "isTextAction": true,
-        "isPassword": false
-      }
-    }
-  ],
-  "blocksToExecute": [
-    "Report"
-  ],
-  "pinBlocks": [],
-  "openExternalReportId": "Report"
+  "version": 2
 }
