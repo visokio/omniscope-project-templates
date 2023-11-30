@@ -1,5 +1,6 @@
 {
   "name": "Stocks",
+  "version": 2,
   "description": "Dashboard of your favorite stocks",
-  "version": 2
+  "category": "General"
 }
