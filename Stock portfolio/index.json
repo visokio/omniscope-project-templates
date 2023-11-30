@@ -1,9 +1,6 @@
 {
   "name": "Stock portfolio",
-  "version": 1,
+  "version": 2,
   "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
-  "category": "General",
-  "workflowActions": [],
-  "pinBlocks": ["Demo Portfolio", "Report"],
-  "blocksToExecute": ["Report"]
+  "category": "General"
 }
