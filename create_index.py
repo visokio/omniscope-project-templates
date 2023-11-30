@@ -28,7 +28,7 @@ def process_directory(path: str, templates):
     with open(path+"/index.json", 'r') as index_file:
         manifest = json.load(index_file)
 
-        if not "version" in manifest or not manifest["version"] in supported_versions:
+        if not "version" in manifest:
             return
 
         # This is a template project folder....
