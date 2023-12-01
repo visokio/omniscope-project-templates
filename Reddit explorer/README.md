@@ -1,2 +1,2 @@
-# Explore Reddit
-This project allows users to explore subreddit in Omniscope.
+# Reddit explorer
+Explore subreddit

@@ -1,2 +1,2 @@
 # SalesForce dashboard
-Connect to your SalesForce data and visualise accounts, leads, opportunities and sales.
+Visualise data about accounts, lead, opportunities and sales.
