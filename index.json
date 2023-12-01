@@ -1,28 +1,40 @@
 {
     "list": [
         {
-            "name": "SalesForce dashboard",
+            "name": "Stocks performance",
+            "category": "Finance",
+            "description": "Dashboard of your favorite stocks",
             "version": 2,
+            "parameters": [
+                {
+                    "name": "Tickers",
+                    "description": "Enter stock tickers comma seperated i.e. appl,meta,hsbc"
+                },
+                {
+                    "name": "Start Date",
+                    "description": "Enter the start date"
+                }
+            ]
+        },
+        {
+            "name": "SalesForce dashboard",
             "description": "Visualise data about accounts, lead, opportunities and sales.",
-            "category": "General"
+            "version": 2,
+            "parameters": []
         },
         {
             "name": "Reddit explorer",
-            "version": 2,
+            "category": "Social",
             "description": "Explore subreddit",
-            "category": "Social"
+            "version": 2,
+            "parameters": []
         },
         {
             "name": "Stock portfolio",
-            "version": 2,
+            "category": "Finance",
             "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
-            "category": "Finance"
-        },
-        {
-            "name": "Stocks",
             "version": 2,
-            "description": "Dashboard of your favorite stocks",
-            "category": "Finance"
+            "parameters": []
         }
     ],
     "templates": [],
