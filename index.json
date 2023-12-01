@@ -16,13 +16,13 @@
             "name": "Stock portfolio",
             "version": 2,
             "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
-            "category": "General"
+            "category": "Finance"
         },
         {
             "name": "Stocks",
             "version": 2,
             "description": "Dashboard of your favorite stocks",
-            "category": "General"
+            "category": "Finance"
         }
     ],
     "templates": [],
