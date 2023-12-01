@@ -1,6 +1,6 @@
 {
   "name": "SalesForce dashboard",
-  "version": 2,
   "description": "Visualise data about accounts, lead, opportunities and sales.",
-  "category": "General"
+  "version": 2,
+  "parameters": []
 }

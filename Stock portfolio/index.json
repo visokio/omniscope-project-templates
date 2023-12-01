@@ -1,6 +1,7 @@
 {
   "name": "Stock portfolio",
-  "version": 2,
+  "category": "Finance",
   "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
-  "category": "Finance"
+  "version": 2,
+  "parameters": []
 }

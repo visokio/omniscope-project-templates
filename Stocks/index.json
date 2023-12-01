@@ -1,6 +1,16 @@
 {
   "name": "Stocks",
-  "version": 2,
+  "category": "Finance",
   "description": "Dashboard of your favorite stocks",
-  "category": "Finance"
+  "version": 2,
+  "parameters": [
+    {
+      "name": "Tickers",
+      "description": "Enter stock tickers comma seperated i.e. appl,meta,hsbc"
+    },
+    {
+      "name": "Start Date",
+      "description": "Enter the start date"
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 {
   "name": "Reddit explorer",
-  "version": 2,
+  "category": "Social",
   "description": "Explore subreddit",
-  "category": "Social"
+  "version": 2,
+  "parameters": []
 }
