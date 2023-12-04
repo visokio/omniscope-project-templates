@@ -42,7 +42,10 @@
             "name": "SalesForce dashboard",
             "description": "Visualise data about accounts, lead, opportunities and sales.",
             "version": 1,
-            "parameters": []
+            "parameters": [],
+            "workflowActions": [],
+            "pinBlocks": ["Demo Report"],
+            "blocksToExecute": ["Demo Report"]
         }
     ],
     "categories": {}
