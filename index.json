@@ -38,14 +38,18 @@
         }
     ],
     "templates": [ 
-        {
+       {
             "name": "SalesForce dashboard",
-            "description": "Visualise data about accounts, lead, opportunities and sales.",
             "version": 1,
-            "parameters": [],
+            "description": "Visualise data about accounts, lead, opportunities and sales.",
+            "category": "General",
             "workflowActions": [],
-            "pinBlocks": ["Demo Report"],
-            "blocksToExecute": ["Demo Report"]
+            "pinBlocks": [
+                "Demo Report"
+            ],
+            "blocksToExecute": [
+                "Demo Report"
+            ]
         }
     ],
     "categories": {}
