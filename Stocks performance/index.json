@@ -3,6 +3,7 @@
   "category": "Finance",
   "description": "Dashboard of your favorite stocks",
   "version": 2,
+  "templateIozFileName": "template.ioz",
   "parameters": [
     {
       "name": "Tickers",

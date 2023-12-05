@@ -3,5 +3,6 @@
   "category": "Finance",
   "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
   "version": 2,
+  "templateIozFileName": "template_v2.ioz",
   "parameters": []
 }

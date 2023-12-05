@@ -2,5 +2,6 @@
   "name": "SalesForce dashboard",
   "description": "Visualise data about accounts, lead, opportunities and sales.",
   "version": 2,
+  "templateIozFileName": "template_v2.ioz",
   "parameters": []
 }

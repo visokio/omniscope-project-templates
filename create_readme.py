@@ -48,6 +48,7 @@ def create_template_overview(f, templates):
             f.write(f'<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/{aTemplate["thumbnail"]}" width="150px" height="auto"/>\n\n')
 
         f.write(f'{aTemplate["description"]}\n\n')
+        f.write(f'Version: {aTemplate["version"]}\n\n')
         f.write(f'[Link to Github page]({aTemplate["relative_path"]})\n\n')
 
 
@@ -58,9 +59,10 @@ def process_directory(root_path: str, path_parts, templates):
 
         if "version" in indexJson:
 
-            relative_path = os.sep.join(path_parts)
-            print(indexJson)
+            if (int(indexJson["version"]) < 2): return # Not supported versions less than 1
 
+            
+            relative_path = os.sep.join(path_parts)
 
             id = "".join(list(map(lambda s: s.replace(" ", ""), path_parts)))
 
@@ -70,8 +72,9 @@ def process_directory(root_path: str, path_parts, templates):
             aTemplate["relative_path"] = urllib.parse.quote(relative_path)
             aTemplate["name"] = indexJson["name"]
             aTemplate["description"] = indexJson["description"]
+            aTemplate["version"] = indexJson["version"]
 
-            if (relative_path != aTemplate["name"]):
+            if (not relative_path.endswith(aTemplate["name"])):
                 raise Exception(f"Name of the template MUST match name of the folder." + relative_path + " != " + aTemplate["name"]) 
 
             if path.isfile(root_path+"/thumbnail.png"):
@@ -82,7 +85,7 @@ def process_directory(root_path: str, path_parts, templates):
 
 templates = []
 
-for root, dirs, files in os.walk("."):
+for root, dirs, files in os.walk("./"):
     root_path = root.split(os.sep)
     path_parts = root_path[1:]
     for file in files:

@@ -28,8 +28,12 @@ def process_directory(path: str, templates):
     with open(path+"/index.json", 'r') as index_file:
         manifest = json.load(index_file)
 
+
         if not "version" in manifest:
             return
+
+        if (int(manifest["version"]) < 2):
+            return # ignore versions less than 2 they belong to old app not supported or listed in github readme
 
         # This is a template project folder....
         checkFileExists(path + "/thumbnail.png");
@@ -55,12 +59,17 @@ def process_directory(path: str, templates):
 
 
 templates = []
-for root, dirs, files in os.walk("."):
+
+for root, dirs, files in os.walk("./"):
     path = root.split(os.sep)
     for file in files:
         if file == "index.json":
             process_directory(root, templates)
 
 
+mainIndexJson = []
+with open('./index.json', 'r') as f:
+    mainIndexJson = json.load(f)
+
 with open(index_file_name, 'w') as index_file:
-    json.dump({"list": templates, "templates": [], "categories": {}}, index_file, indent=4)
+    json.dump({"list": templates, "templates": mainIndexJson["templates"], "categories": {}}, index_file, indent=4)

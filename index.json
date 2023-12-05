@@ -1,10 +1,26 @@
 {
     "list": [
         {
+            "name": "Reddit explorer",
+            "category": "Social",
+            "description": "Explore subreddit",
+            "version": 2,
+            "templateIozFileName": "template_v2.ioz",
+            "parameters": []
+        },
+        {
+            "name": "Twitter Profile Analysis",
+            "category": "Social",
+            "description": "This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.",
+            "version": 2,
+            "parameters": []
+        },
+        {
             "name": "Stocks performance",
             "category": "Finance",
             "description": "Dashboard of your favorite stocks",
             "version": 2,
+            "templateIozFileName": "template.ioz",
             "parameters": [
                 {
                     "name": "Tickers",
@@ -17,28 +33,23 @@
             ]
         },
         {
-            "name": "SalesForce dashboard",
-            "description": "Visualise data about accounts, lead, opportunities and sales.",
-            "version": 2,
-            "parameters": []
-        },
-        {
-            "name": "Reddit explorer",
-            "category": "Social",
-            "description": "Explore subreddit",
-            "version": 2,
-            "parameters": []
-        },
-        {
             "name": "Stock portfolio",
             "category": "Finance",
             "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
             "version": 2,
+            "templateIozFileName": "template_v2.ioz",
+            "parameters": []
+        },
+        {
+            "name": "SalesForce dashboard",
+            "description": "Visualise data about accounts, lead, opportunities and sales.",
+            "version": 2,
+            "templateIozFileName": "template_v2.ioz",
             "parameters": []
         }
     ],
-    "templates": [ 
-       {
+    "templates": [
+        {
             "name": "SalesForce dashboard",
             "version": 1,
             "description": "Visualise data about accounts, lead, opportunities and sales.",
@@ -49,6 +60,29 @@
             ],
             "blocksToExecute": [
                 "Demo Report"
+            ]
+        },
+        {
+            "name": "Reddit explorer",
+            "version": 1,
+            "description": "Explore subreddit",
+            "category": "Social",
+            "workflowActions": [],
+            "pinBlocks": [],
+            "blocksToExecute": []
+        },
+        {
+            "name": "Stock portfolio",
+            "version": 1,
+            "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
+            "category": "General",
+            "workflowActions": [],
+            "pinBlocks": [
+                "Demo Portfolio",
+                "Report"
+            ],
+            "blocksToExecute": [
+                "Report"
             ]
         }
     ],

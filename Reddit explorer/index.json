@@ -3,5 +3,6 @@
   "category": "Social",
   "description": "Explore subreddit",
   "version": 2,
+  "templateIozFileName": "template_v2.ioz",
   "parameters": []
 }
