@@ -1,20 +1,6 @@
 {
     "list": [
         {
-            "name": "Reddit explorer",
-            "category": "Social",
-            "description": "Explore subreddit",
-            "version": 2,
-            "templateIozFileName": "template_v2.ioz",
-            "parameters": []
-        },
-        {
-            "name": "Twitter Profile Analysis",
-            "category": "Social",
-            "description": "This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.",
-            "parameters": []
-        },
-        {
             "name": "Stocks performance",
             "category": "Finance",
             "description": "Dashboard of your favorite stocks",
@@ -32,16 +18,24 @@
             ]
         },
         {
-            "name": "Stock portfolio",
-            "category": "Finance",
-            "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
+            "name": "SalesForce dashboard",
+            "description": "Visualise data about accounts, lead, opportunities and sales.",
             "version": 2,
             "templateIozFileName": "template_v2.ioz",
             "parameters": []
         },
         {
-            "name": "SalesForce dashboard",
-            "description": "Visualise data about accounts, lead, opportunities and sales.",
+            "name": "Reddit explorer",
+            "category": "Social",
+            "description": "Explore subreddit",
+            "version": 2,
+            "templateIozFileName": "template_v2.ioz",
+            "parameters": []
+        },
+        {
+            "name": "Stock portfolio",
+            "category": "Finance",
+            "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
             "version": 2,
             "templateIozFileName": "template_v2.ioz",
             "parameters": []
