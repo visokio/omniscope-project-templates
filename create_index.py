@@ -71,5 +71,12 @@ mainIndexJson = []
 with open('./index.json', 'r') as f:
     mainIndexJson = json.load(f)
 
+def get_templateName(t):
+    return t["name"]
+
+
 with open(index_file_name, 'w') as index_file:
+
+    templates.sort(key=get_templateName)
+
     json.dump({"list": templates, "templates": mainIndexJson["templates"], "categories": {}}, index_file, indent=4)

@@ -23,20 +23,16 @@ def create_header(f):
     f.write("Public repository for project templates for Omniscope Evo.\n")
     f.write("\n")
 
-def compare(a, b):
 
-    if a is None:
-        return 1
-    if b is None:
-        return -1
 
-    if a > b: return 1
-    elif a < b: return -1
-    else: return 0
-
+def get_templateName(t):
+    return t["name"]
 
 def create_template_overview(f, templates):
     f.write("## Template Overview\n")
+
+    templates.sort(key=get_templateName)
+
     for aTemplate in templates:
 
         f.write(f'<div id="{aTemplate["id"]}"/>\n\n')
