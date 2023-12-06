@@ -51,15 +51,3 @@ Version: 2
 
 [Link to Github page](Stocks%20performance)
 
-<div id="TwitterProfileAnalysis"/>
-
-### Twitter Profile Analysis
-
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Twitter Profile Analysis/thumbnail.png" width="150px" height="auto"/>
-
-This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.
-
-Version: 2
-
-[Link to Github page](Twitter%20Profile%20Analysis)
-
