@@ -1,2 +1,2 @@
 # Stocks performance
-Dashboard of your favorite stocks
+Input some stock tickers and analyse their performance over time.
