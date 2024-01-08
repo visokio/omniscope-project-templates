@@ -45,7 +45,7 @@ Version: 2
 
 <img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stocks performance/thumbnail.png" width="150px" height="auto"/>
 
-Dashboard of your favorite stocks
+Input some stock tickers and analyse their performance over time.
 
 Version: 2
 
