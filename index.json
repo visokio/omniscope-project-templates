@@ -26,7 +26,7 @@
         {
             "name": "Stocks performance",
             "category": "Finance",
-            "description": "Input some stock tickers and analyse their performance over time",
+            "description": "Input some stock tickers and analyse their performance over time.",
             "version": 2,
             "templateIozFileName": "template.ioz",
             "parameters": [
