@@ -11,7 +11,7 @@
     },
     {
       "name": "Start Date",
-      "description": "Enter the start date"
+      "description": "Number of months. E.g. 3 to get last 3 months, 6 for last 6 months, etc."
     }
   ]
 }
