@@ -32,7 +32,7 @@
             "parameters": [
                 {
                     "name": "Tickers",
-                    "description": "Enter stock tickers comma seperated i.e. appl,meta,hsbc"
+                    "description": "Enter stock tickers comma separated i.e. aapl,meta,hsbc"
                 },
                 {
                     "name": "Start Date",
