@@ -1,0 +1,17 @@
+{
+  "name": "Stocks_performance",
+  "category": "Finance",
+  "description": "Input some stock tickers and analyse their performance over time.",
+  "version": 2,
+  "templateIozFileName": "template.ioz",
+  "parameters": [
+    {
+      "name": "Tickers",
+      "description": "Enter stock tickers comma separated i.e. aapl,meta,hsbc"
+    },
+    {
+      "name": "Start Date",
+      "description": "Number of months. E.g. 3 to get last 3 months, 6 for last 6 months, etc."
+    }
+  ]
+}
