@@ -1,5 +1,5 @@
 {
-  "name": "SalesForce dashboard",
+  "name": "SalesForce_dashboard",
   "description": "Visualise data about accounts, lead, opportunities and sales.",
   "version": 2,
   "templateIozFileName": "template_v2.ioz",
