@@ -3,51 +3,63 @@
 Public repository for project templates for Omniscope Evo.
 
 ## Template Overview
-<div id="Redditexplorer"/>
+<div id="Reddit_explorer"/>
 
-### Reddit explorer
+### Reddit_explorer
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Reddit explorer/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Reddit_explorer/thumbnail.png" width="150px" height="auto"/>
 
 Explore subreddit
 
 Version: 2
 
-[Link to Github page](Reddit%20explorer)
+[Link to Github page](Reddit_explorer)
 
-<div id="SalesForcedashboard"/>
+<div id="SalesForce_dashboard"/>
 
-### SalesForce dashboard
+### SalesForce_dashboard
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/SalesForce dashboard/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/SalesForce_dashboard/thumbnail.png" width="150px" height="auto"/>
 
 Visualise data about accounts, lead, opportunities and sales.
 
 Version: 2
 
-[Link to Github page](SalesForce%20dashboard)
+[Link to Github page](SalesForce_dashboard)
 
-<div id="Stockportfolio"/>
+<div id="Stock_portfolio"/>
 
-### Stock portfolio
+### Stock_portfolio
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stock portfolio/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stock_portfolio/thumbnail.png" width="150px" height="auto"/>
 
 Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard
 
-Version: 3
+Version: 2
 
-[Link to Github page](Stock%20portfolio)
+[Link to Github page](Stock_portfolio)
 
-<div id="Stocksperformance"/>
+<div id="Stocks_performance"/>
 
-### Stocks performance
+### Stocks_performance
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stocks performance/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stocks_performance/thumbnail.png" width="150px" height="auto"/>
 
 Input some stock tickers and analyse their performance over time.
 
 Version: 2
 
-[Link to Github page](Stocks%20performance)
+[Link to Github page](Stocks_performance)
+
+<div id="Twitter_Profile_Analysis"/>
+
+### Twitter_Profile_Analysis
+
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Twitter_Profile_Analysis/thumbnail.png" width="150px" height="auto"/>
+
+This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.
+
+Version: 2
+
+[Link to Github page](Twitter_Profile_Analysis)
 
