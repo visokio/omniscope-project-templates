@@ -1,2 +1,0 @@
-# Twitter Profile Analysis
-This project allows you to view a dashboard of any Twitter user timeline. Start by connecting your Twitter account in the Twitter block and selecting the user profile handles you wish to view.
