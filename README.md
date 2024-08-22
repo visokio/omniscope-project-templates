@@ -3,51 +3,51 @@
 Public repository for project templates for Omniscope Evo.
 
 ## Template Overview
-<div id="Reddit_explorer"/>
+<div id="Redditexplorer"/>
 
-### Reddit_explorer
+### Reddit explorer
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Reddit_explorer/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Reddit explorer/thumbnail.png" width="150px" height="auto"/>
 
 Explore subreddit
 
 Version: 2
 
-[Link to Github page](Reddit_explorer)
+[Link to Github page](Reddit%20explorer)
 
-<div id="SalesForce_dashboard"/>
+<div id="SalesForcedashboard"/>
 
-### SalesForce_dashboard
+### SalesForce dashboard
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/SalesForce_dashboard/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/SalesForce dashboard/thumbnail.png" width="150px" height="auto"/>
 
 Visualise data about accounts, lead, opportunities and sales.
 
 Version: 2
 
-[Link to Github page](SalesForce_dashboard)
+[Link to Github page](SalesForce%20dashboard)
 
-<div id="Stock_portfolio"/>
+<div id="Stockportfolio"/>
 
-### Stock_portfolio
+### Stock portfolio
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stock_portfolio/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stock portfolio/thumbnail.png" width="150px" height="auto"/>
 
 Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard
 
 Version: 3
 
-[Link to Github page](Stock_portfolio)
+[Link to Github page](Stock%20portfolio)
 
-<div id="Stocks_performance"/>
+<div id="Stocksperformance"/>
 
-### Stocks_performance
+### Stocks performance
 
-<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stocks_performance/thumbnail.png" width="150px" height="auto"/>
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Stocks performance/thumbnail.png" width="150px" height="auto"/>
 
 Input some stock tickers and analyse their performance over time.
 
 Version: 2
 
-[Link to Github page](Stocks_performance)
+[Link to Github page](Stocks%20performance)
 
