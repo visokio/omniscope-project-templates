@@ -44,7 +44,7 @@
     ],
     "templates": [
         {
-            "name": "SalesForce_dashboard",
+            "name": "SalesForce dashboard",
             "version": 1,
             "description": "Visualise data about accounts, lead, opportunities and sales.",
             "category": "General",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "name": "Reddit_explorer",
+            "name": "Reddit explorer",
             "version": 1,
             "description": "Explore subreddit",
             "category": "Social",
@@ -66,7 +66,7 @@
             "blocksToExecute": []
         },
         {
-            "name": "Stock_portfolio",
+            "name": "Stock portfolio",
             "version": 1,
             "description": "Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard",
             "category": "General",
