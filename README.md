@@ -35,7 +35,7 @@ Version: 2
 
 Input your stock portfolio and watch as Omniscope maps the fields and produces a cool dashboard
 
-Version: 2
+Version: 3
 
 [Link to Github page](Stock_portfolio)
 
