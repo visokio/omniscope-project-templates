@@ -1,6 +1,6 @@
 {
   "name": "SalesForce dashboard",
-  "category": "General",
+  "category": "CRM",
   "description": "Visualise data about accounts, lead, opportunities and sales.",
   "version": 2,
   "templateIozFileName": "template_v2.ioz",
