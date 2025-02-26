@@ -1,17 +1,17 @@
 {
     "list": [
         {
-            "name": "Reddit explorer",
-            "category": "Social",
-            "description": "Explore subreddit",
+            "name": "SalesForce dashboard",
+            "category": "CRM",
+            "description": "Visualise data about accounts, lead, opportunities and sales.",
             "version": 2,
             "templateIozFileName": "template_v2.ioz",
             "parameters": []
         },
         {
-            "name": "SalesForce dashboard",
-            "category": "CRM",
-            "description": "Visualise data about accounts, lead, opportunities and sales.",
+            "name": "Reddit explorer",
+            "category": "Social",
+            "description": "Explore subreddit",
             "version": 2,
             "templateIozFileName": "template_v2.ioz",
             "parameters": []
