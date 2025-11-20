@@ -1,0 +1,15 @@
+{
+  "name": "Telegram RAG bot",
+  "category": "AI Agent",
+  "description": "A Telegram -> RAG -> Telegram cycle. Both questions and source documents are downloaded from Telegram and then processed independently.",
+  "version": 2,
+  "templateIozFileName": "template.ioz",
+  "parameters": [
+    {
+      "name": "Bot token"
+    },
+    {
+      "name": "Chat ID"
+    }
+  ]
+}
