@@ -1,17 +1,17 @@
 {
     "list": [
         {
-            "name": "SalesForce dashboard",
-            "category": "CRM",
-            "description": "Visualise data about accounts, lead, opportunities and sales.",
+            "name": "Reddit explorer",
+            "category": "Social",
+            "description": "Explore subreddit",
             "version": 2,
             "templateIozFileName": "template_v2.ioz",
             "parameters": []
         },
         {
-            "name": "Reddit explorer",
-            "category": "Social",
-            "description": "Explore subreddit",
+            "name": "SalesForce dashboard",
+            "category": "CRM",
+            "description": "Visualise data about accounts, lead, opportunities and sales.",
             "version": 2,
             "templateIozFileName": "template_v2.ioz",
             "parameters": []
@@ -38,6 +38,21 @@
                 {
                     "name": "Start Date",
                     "description": "Number of months. E.g. 3 to get last 3 months, 6 for last 6 months, etc."
+                }
+            ]
+        },
+        {
+            "name": "Telegram RAG bot",
+            "category": "AI Agent",
+            "description": "A Telegram -> RAG -> Telegram cycle. Both questions and source documents are downloaded from Telegram and then processed independently.",
+            "version": 2,
+            "templateIozFileName": "template.ioz",
+            "parameters": [
+                {
+                    "name": "Bot token"
+                },
+                {
+                    "name": "Chat ID"
                 }
             ]
         }
