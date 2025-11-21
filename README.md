@@ -51,3 +51,15 @@ Version: 2
 
 [Link to Github page](Stocks%20performance)
 
+<div id="TelegramRAGbot"/>
+
+### Telegram RAG bot
+
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Telegram RAG bot/thumbnail.png" width="150px" height="auto"/>
+
+A Telegram -> RAG -> Telegram cycle. Both questions and source documents are downloaded from Telegram and then processed independently.
+
+Version: 2
+
+[Link to Github page](Telegram%20RAG%20bot)
+
