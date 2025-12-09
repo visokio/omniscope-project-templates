@@ -53,6 +53,9 @@
                 },
                 {
                     "name": "Chat ID"
+                },
+                {
+                    "name": "Chroma DB"
                 }
             ]
         }
