@@ -51,6 +51,18 @@ Version: 2
 
 [Link to Github page](Stocks%20performance)
 
+<div id="SurvivalAnalysis"/>
+
+### Survival Analysis
+
+<img align="right" src="https://github.com/visokio/omniscope-project-templates/blob/master/Survival Analysis/thumbnail.png" width="150px" height="auto"/>
+
+Computes the survival analysis curves and allows you to compare them visually
+
+Version: 2
+
+[Link to Github page](Survival%20Analysis)
+
 <div id="TelegramRAGbot"/>
 
 ### Telegram RAG bot
