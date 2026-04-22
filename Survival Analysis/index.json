@@ -1,0 +1,33 @@
+{
+  "name": "Survival Analysis",
+  "category": "Analytics",
+  "description": "Computes the survival analysis curves and allows you to compare them visually",
+  "version": 2,
+  "templateIozFileName": "template.ioz",
+  "parameters": [
+    {
+      "name": "Events data",
+      "description": "The file that contains events, duration, strata"
+    },
+    {
+      "name": "Model",
+      "description": "The model to use, whether kaplan-meier or fleming-harrington"
+    },
+    {
+      "name": "Censored Event Field Name",
+      "description": "The field name in the input file that contains the Censored Events"
+    },
+    {
+      "name": "Duration Field Name",
+      "description": "The field name in the input file that contains the Duration"
+    },
+    {
+      "name": "Field name to iterate on",
+      "description": "The name of the field in the dataset to be used to split the data and perform the analysis for each of the unique values.\n(or \"null\" if you don't need to split and want to analyse the whole dataset at once)"
+    },
+    {
+      "name": "Strata Field Name",
+      "description": "The field name in the input file that contains the Strata (leave it empty if you don't need it)"
+    }
+  ]
+}
